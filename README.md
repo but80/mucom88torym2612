@@ -4,6 +4,8 @@ Convert voice data from [`voice.dat`](https://github.com/onitama/mucom88/blob/ma
 
 ## How to use
 
-1. Place `mucom88torym2612.exe` file in the same directory with `voice.dat`.
-2. Open `mucom88torym2612.exe`.
-3. The converted voice files are saved in `output` directory.
+1. Download [`mucom88torym2612_X.X.X_windows_amd64.zip
+`](https://github.com/but80/mucom88torym2612/releases) and extract it
+2. Place `mucom88torym2612.exe` in the same directory with `voice.dat`
+3. Execute `mucom88torym2612.exe`
+4. The converted voice files are saved in `output` directory
