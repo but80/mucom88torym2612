@@ -1,0 +1,22 @@
+project_name: mucom88torym2612
+release:
+  github:
+    owner: but80
+    name: mucom88torym2612
+builds:
+- goos:
+  - windows
+  goarch:
+  - amd64
+  main: .
+  ldflags: -s -w -X main.version={{.Version}}
+  binary: mucom88torym2612
+archive:
+  format: tar.gz
+  format_overrides:
+    - goos: windows
+      format: zip
+  name_template: '{{ .Binary }}_{{.Version}}_{{ .Os }}_{{ .Arch }}'
+  files:
+  - LICENSE*
+  - README*
